@@ -12,7 +12,6 @@
   <li><code>OnlineOrderWebApp/</code> — основной каталог проекта.</li>
   <li><code>OnlineOrderWebApp/Controllers/</code> — контроллеры ASP.NET MVC.</li>
   <li><code>OnlineOrderWebApp/Models/</code> — модели данных.</li>
-  <li><code>OnlineOrderWebApp/Views/</code> — представления (Views) Razor.</li>
   <li><code>OnlineOrderWebApp/OnlineOrderWebApp.csproj</code> — файл проекта.</li>
 </ul>
 
@@ -89,9 +88,7 @@ http://localhost:5000
 <p>После запуска вы должны увидеть главную страницу приложения. Убедитесь, что все функции работают корректно, включая:</p>
 
 <ul>
-  <li>Регистрацию</li>
-  <li>Авторизацию</li>
-  <li>Оформление заказов</li>
+  <li>Методы API</li>
 </ul>
 
 <hr />
