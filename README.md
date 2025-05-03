@@ -26,5 +26,21 @@
 
 ```bash
 git clone https://github.com/EvgenyVishnyakov/OnlineOrderWebApp.git
-cd OnlineOrderWebApp
+cd OnlineOrderWebApp'''
 
+
+
+
+### Откройте проект в Visual Studio
+Запустите Visual Studio.
+
+Выберите "Открыть проект или решение".
+
+Укажите путь к файлу OnlineOrderWebApp.csproj.
+
+3. Настройте строку подключения к базе данных
+Откройте файл appsettings.json.
+
+Найдите раздел ConnectionStrings.
+
+Укажите параметры подключения к вашей базе данных SQL Server.
