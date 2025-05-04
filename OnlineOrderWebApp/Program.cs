@@ -22,6 +22,7 @@ try
     {
         options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
         options.SerializerSettings.Converters.Add(new StringEnumConverter());
+
     });
     builder.Services.AddControllers()
     .AddJsonOptions(options =>
@@ -88,9 +89,7 @@ try
     }
 
     app.UseHttpsRedirection();
-
     app.UseAuthorization();
-
     app.MapControllers();
 
     app.MapControllerRoute(
